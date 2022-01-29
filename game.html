@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    button {
+        background-color: yellow;
+        color: green;
+    }
+
+    h2 {
+        color: rgba(124, 12, 55, 0.979);
+        font-size: 35px;
+    }
+
+    h1 {
+        color: yellowgreen;
+    }
+</style>
+
+<body style="background-image: url('card.jpg');background-repeat: no-repeat;background-size:cover;">
+    <div style="margin-top:50px;opacity:1;">
+        <h1 style="text-align:center;font-size:50px;color:rgba(44, 196, 188, 0.904);">BLACKJACK</h1>
+        <div style="display:flex;justify-content: center;align-items:center;">
+            <h1 id="description"></h1>
+        </div>
+        <div style="display:flex;justify-content:center;align-items:center;">
+            <h2 id="cards">CARDS:</h2>
+        </div>
+        <div style="display:flex;justify-content: center;align-items:center;">
+            <h2 id="sum">SUM:</h2>
+        </div>
+        <div style="display:flex;justify-content: center;align-items:center;">
+            <button style="border-radius:8px;margin:5px; font-size:20px;border:2px solid black;padding:10px;"
+                id="start">
+                <b> START GAME</b>
+            </button>
+            <button style="border-radius:8px;margin:5px;font-size:20px;border:2px solid black;padding:10px;"
+                id="newcard">
+                <b>NEW CARD</b>
+            </button>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+
+</html>
